@@ -1,0 +1,11 @@
+version = 0.1
+[taharehman]
+[taharehman.deploy]
+[taharehman.deploy.parameters]
+stack_name = "sam-app-user1-dev-stack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-163lotuuylooy"
+s3_prefix = "sam-app-user1-dev-stack"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
